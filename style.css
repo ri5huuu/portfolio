@@ -10,7 +10,6 @@
 html,body{
     height: 100vh;
     width: 100vw;
-    background-color: black;
     font-family: 'TT Interphases', sans-serif;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -186,7 +185,6 @@ span{
     height: 40dvh;
     width: 40dvh;
     background-color: black;
-    border: 1px solid black;
 }
 .project1:hover{
     transform: scale(1.1);
@@ -194,7 +192,6 @@ span{
 .project2{
     height: 40dvh;
     width: 40dvh;
-    border: 1px solid black;
 }
 .project2:hover{
     transform: scale(1.1);
