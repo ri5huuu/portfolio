@@ -12,6 +12,8 @@ html,body{
     width: 100vw;
     background-color: black;
     font-family: 'TT Interphases', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 #main{
     height: 100dvh;
@@ -148,5 +150,88 @@ html,body{
     padding: 5dvh;
     background-color: cadetblue;
 }
+.aboutsection{
+    height: 100dvh;
+    width: 100dvw;
+    margin-top: 25dvh;
+    padding: 30dvh;
+    /* padding-top: -10dvh; */
+    /* background-color: #b5b738; */
+}
+.aboutsection h2{
+    font-size: 8dvh;
+}
+.aboutsection h5{
+    font-size: larger;
+    text-align: start;
+}
+.projectsection{
+    height: 100dvh;
+    width: 100dvw;
+    margin-top: 15dvh;
+    padding: 10dvh;
+    /* background-color: beige; */
+
+}
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+.projectsection h2{
+    font-size: 8dvh;
+}
+.project1{
+    height: 40dvh;
+    width: 40dvh;
+    background-color: black;
+    border: 1px solid black;
+}
+.project1:hover{
+    transform: scale(1.1);
+}
+.project2{
+    height: 40dvh;
+    width: 40dvh;
+    border: 1px solid black;
+}
+.project2:hover{
+    transform: scale(1.1);
+}
+.resume{
+    height: 60dvh;
+    width: 100dvw;
+    margin-top: 30dvh;
+    padding: 10dvh;
+}
+.resume h2{
+    font-size: 8dvh;
+}
+.resume button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vmin;
+    width: 18vmin;
+    background-color:gray;
+    color: white;
+    border: transparent;
+    border-radius: 4dvh;
+}
+.resume button:active{
+    transform: scale(0.95);
+}
+footer{
+    height: 20dvh;
+    width: 100dvw;
+    /* background-color: darkslategray; */
+    text-align: center;
+}
+footer hr{
+    filter: blur(4px);
+}
+
+
 
 
