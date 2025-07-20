@@ -11,7 +11,7 @@ html,body{
     height: 100vh;
     width: 100vw;
     font-family: 'TT Interphases', sans-serif;
-    background-color: black;
+    background-color: rgb(26, 16, 16);
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -42,6 +42,14 @@ html,body{
 .light-mode .linkedin i {
   color: #0077b5; 
 }
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul a{
+    text-decoration: none;
+}
 .darkmode{
     color: white;
     margin-right: 6vh;
@@ -55,8 +63,17 @@ html,body{
 .darkmode:hover{
     cursor: pointer;
 }
+.Home{
+    margin-right: 6vh;
+    color: white;
+}
+.Home:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
 .about{
     margin-right: 6vh;
+    color: white;
 }
 .about:hover{
     transform: scale(1.05);
@@ -64,6 +81,7 @@ html,body{
 }
 .projects{
     margin-right: 6vh;
+    color: white;
 }
 .projects:hover{
     transform: scale(1.05);
@@ -164,6 +182,7 @@ html,body{
 .aboutsection h5{
     font-size: larger;
     text-align: start;
+    text-shadow: 0 0 0px #0ff, 0 0 10px #0ff, 0 0 0px #0ff;
 }
 .projectsection{
     height: 100dvh;
@@ -205,6 +224,7 @@ span{
 }
 .resume h2{
     font-size: 8dvh;
+    text-shadow: 0 0 0px rgb(255, 255, 255), 0 0 10px #0ff, 0 0 0px #0ff;
 }
 .resume button{
     display: flex;
@@ -228,6 +248,10 @@ footer{
 }
 footer hr{
     filter: blur(4px);
+}
+footer ul a{
+    text-decoration: none;
+    color: gray;
 }
 
 
